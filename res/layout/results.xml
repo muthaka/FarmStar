@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Farmer" 
+    android:background="#000000"
+    >
+
+    <TextView
+        android:id="@+id/tvirrig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvcrop"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="154dp"
+        android:padding="10dip"
+        android:text="@string/ir" />
+
+    <TextView
+        android:id="@+id/tvproduce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvirrig"
+        android:layout_alignLeft="@+id/tvirrig"
+        android:layout_marginBottom="18dp"
+        android:padding="10dip"
+        android:text="@string/pd" />
+
+    <TextView
+        android:id="@+id/tvcrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvproduce"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="17dp"
+        android:padding="10dip"
+        android:text="@string/cp" />
+
+    <Button
+        android:id="@+id/btdemand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tvirrig"
+        android:layout_marginTop="72dp"
+        android:text="@string/cd" />
+
+    <TextView
+        android:id="@+id/tvcrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvcrop"
+        android:layout_alignBottom="@+id/tvcrop"
+        android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@+id/tvirrig"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvprd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvproduce"
+        android:layout_alignBottom="@+id/tvproduce"
+        android:layout_alignLeft="@+id/tvcrp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvirg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvirrig"
+        android:layout_alignBottom="@+id/tvirrig"
+        android:layout_alignLeft="@+id/tvprd"
+        android:text="TextView" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FarMstaR</string>
+    <string name="action_settings">Settings</string>
+    <string name="vw">Welcome!!!</string>
+    <string name="sl">Soil</string>
+    <string name="cl">Climate</string>
+    <string name="ls">Land Scale</string>
+    <string name="lsz">Land Size</string>
+    <string name="gt">Get Best Crop</string>
+    <string name="cp">Crop</string>
+    <string name="pd">Produce</string>
+    <string name="ir">Irrigation</string>
+    <string name="cd">Check Demand</string>
+    <string-array name="soil">
+        <item>Loam</item>
+        <item>Clay</item>
+        <item>Sand</item>
+        <item>Volcanic</item>
+    </string-array>
+    
+    <string-array name="climate">
+        <item>Cool and Wet</item>
+        <item>Cool and Dry</item>
+        <item>Hot and Wet</item>
+        <item>Hot and Dry</item>
+    </string-array>
+    
+    <string-array name="landscale">
+        <item>Hectare</item>
+        <item>Acre</item>
+        
+    </string-array>
+
+</resources>
